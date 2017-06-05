@@ -91,7 +91,7 @@ class singlylinkedlist {
 		Scanner input = new Scanner(System.in);
 		int op = 0;
 		while(op != 4) {
-			System.out.println("1. Insert 2. Delete 3. Display 4. Exit");
+			System.out.println("1. Insert a node 2. Delete a node 3. Show current list 4. Exit");
 			System.out.println("Enter your choice:");
 			op = Integer.parseInt(input.nextLine());
 			switch(op) {
